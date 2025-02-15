@@ -1,0 +1,77 @@
+.ContMot {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextPrinc {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #005695;
+}
+
+.Motivos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.Motivo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 286px;
+  height: 321px;
+  background-color: rgba(1, 87, 148, 0.3019607843);
+  border-radius: 10px;
+}
+
+.TextMotivo {
+  font-family: Inter;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .ContMot {
+    display: flex;
+    width: 100%;
+    height: 130vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Motivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .Motivo {
+    width: 254px;
+    height: 182px;
+  }
+  .TextMotivo {
+    font-size: 18px;
+  }
+  .ImgMotivo {
+    width: 50px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=Motivos.module.css.map */

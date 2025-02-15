@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+}
+.Logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+}
+
+.TextLogo {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.31px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+}
+.TextMenu {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.InputPesquisar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-family: Inter;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 10px 20px;
+  &::placeholder {
+    font-size: 15px;
+    color: #ffffff;
+  }
+}
+.LupaPesqu {
+  position: absolute;
+  right: 10px;
+  top: 43%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+.ContPesq {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 250px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .TextLogo {
+    font-size: 22px;
+  }
+  .Logo {
+    justify-content: center;
+    gap: 10px;
+  }
+  .ContPesq {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+  }
+}

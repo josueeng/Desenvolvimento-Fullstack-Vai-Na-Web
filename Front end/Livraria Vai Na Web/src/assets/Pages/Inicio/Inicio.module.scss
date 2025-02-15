@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ImgBanner {
+  width: 100%;
+}
+.TextBanner {
+  position: absolute;
+  top: 75%;
+  left: 250px;
+  flex-wrap: wrap;
+  font-size: 32px;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 322px;
+  opacity: 0px;
+}
+@media (max-width: 768px) {
+  .ImgBanner {
+    width: 100%;
+    height: 352px;
+    object-fit: cover;
+  }
+  .TextBanner {
+    top: 50%;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.81px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    left: 50%;
+    width: 280px;
+  }
+}
