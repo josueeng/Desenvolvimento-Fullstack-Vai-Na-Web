@@ -1,11 +1,11 @@
 import React from "react";
 import F from  "./Footer.module.scss";
 
-import Facebook from "../../Img/facebook.png";
-import Instagram from "../../Img/instagram.png";
-import Twitter from "../../Img/twiter.png";
-import Youtube from "../../Img/youtube.png";
-import Linkedin from "../../Img/linkedin.png";
+import Facebook from "../../assets/Img/facebook.png";
+import Instagram from "../../assets/Img/instagram.png";
+import Twitter from "../../assets/Img/twiter.png";
+import Youtube from "../../assets/Img/youtube.png";
+import Linkedin from "../../assets/Img/linkedin.png";
 
 export default function Footer() {
   return (

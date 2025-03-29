@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../Components/Header/Header'
 import I from './Inicio.module.scss'
 
-import Banner from '../../Img/banner.png'
+import Banner from '../../assets/Img/banner.png'
 import Motivos from '../../Components/Motivos/Motivos.jsx'
 import Footer from '../../Components/Footer/Footer.jsx'
 export default function Inicio() {

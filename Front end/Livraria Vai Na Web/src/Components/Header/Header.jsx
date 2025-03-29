@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import H from "./Header.module.scss";
-import Logo from "../../img/logo.png";
-import Lupa from "../../img/search.png";
+import Logo from "../../assets/Img/logo.png";
+import Lupa from "../../assets/Img/search.png";
 
 export default function Header() {
   return (

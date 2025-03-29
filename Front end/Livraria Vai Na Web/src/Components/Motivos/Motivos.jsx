@@ -1,9 +1,9 @@
 import React from "react";
 
-import Comunidade from "../../Img/Comunidade.png";
-import leitura from "../../Img/leitura.png";
-import uniao from "../../Img/uniao.png";
-import balanca from "../../Img/balanca.png";
+import Comunidade from "../../assets/Img/Comunidade.png";
+import leitura from "../../assets/Img/leitura.png";
+import uniao from "../../assets/Img/uniao.png";
+import balanca from "../../assets/Img/balanca.png";
 import M from "./Motivos.module.scss";
 
 export default function Motivos() {
